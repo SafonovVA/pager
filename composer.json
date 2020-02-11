@@ -1,0 +1,23 @@
+{
+  "name": "safonovva/pager",
+  "description": "Pager for files, PDO database, texts",
+  "keywords": ["pager", "paginator", "pagination"],
+  "homepage": "https://github.com/safonovva/pager",
+  "authors": [
+    {
+      "name": "Vladimir Safonov",
+      "email": "safonov.open@gmail.com"
+    }
+  ],
+  "support": {
+    "email": "safonov.open@gmail.com"
+  },
+  "require": {
+    "php": ">=7.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "safonovva\\pager\\": "src"
+    }
+  }
+}
