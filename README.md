@@ -21,8 +21,8 @@ or add
 ## Usage
 
 ``` php
-$obj = new ISPager\DirPager(
-  new ISPager\PagesList(),
+$obj = new safonovva\pager\DirPager(
+  new safonovva\pager\PagesList(),
   'photos',
   3,
   2);
@@ -33,8 +33,8 @@ echo "<p>$obj</p>";
 ```
 
 ``` php
-$obj = new ISPager\FilePager(
-  new ISPager\ItemsRange(),
+$obj = new safonovva\pager\FilePager(
+  new safonovva\pager\ItemsRange(),
   'largetextfile.txt');
 echo "<pre>";
 print_r($obj->getItems());
@@ -49,7 +49,7 @@ try {
     'root',
     '',
     [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
-  $obj = new ISPager\PdoPager(
+  $obj = new safonovva\pager\PdoPager(
     new ISPager\ItemsRange(),
     $pdo,
     'table_name');
