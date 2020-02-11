@@ -3,7 +3,6 @@
 Paginator for PDO, text, files
 
 [![Latest Version](https://img.shields.io/github/tag/safonovva/pager?style=flat-square&label=release)](https://github.com/safonovva/pager)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
 ## Install
 
